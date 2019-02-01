@@ -4493,12 +4493,17 @@ a:hover {
 }
 
 h1, .h1 {
-  font-size: 42px;
+  font-size: 84px;
   line-height: 1.285;
   font-weight: 300;
   margin-bottom: 20px;
   letter-spacing: -0.036em;
 }
+
+h1.white {
+  color: white !important;
+}
+
 h1.big, .h1.big {
   font-size: 58px;
   line-height: 1;
@@ -4520,7 +4525,7 @@ h1.micro, .h1.micro {
 
 h2,
 .h2 {
-  font-size: 35px;
+  font-size: 63px;
   line-height: 1.17;
   margin-bottom: 15px;
   font-weight: 400;
@@ -4528,6 +4533,10 @@ h2,
 h2.uppercase,
 .h2.uppercase {
   letter-spacing: 0.2em !important;
+}
+h2.strike,
+.h2.strike {
+  text-decoration: line-through;
 }
 h2.small,
 .h2.small {
@@ -4544,7 +4553,7 @@ h2.huge,
 
 h3,
 .h3 {
-  font-size: 20px;
+  font-size: 42px;
   margin-bottom: 12px;
   font-weight: 400;
 }
@@ -6370,9 +6379,9 @@ body {
   }
 }
 /*
-*       _____          _             
-*      |  __ \( )     | |            
-*      | |  | |_  __ _| | ___   __ _ 
+*       _____          _
+*      |  __ \( )     | |
+*      | |  | |_  __ _| | ___   __ _
 *      | |  | | |/ _` | |/ _ \ / _` |
 *      | |__| | | (_| | | (_) | (_| |
 *      |_____/|_|\__,_|_|\___/ \__, |
@@ -6620,7 +6629,7 @@ html:not(.page-loaded) .dialog {
   left: 0;
 }
 
-/* 
+/*
 .dialogContainer > .dialog:nth-child(1){ -webkit-transition-delay: 0.1s; transition-delay: 0.1s; }
 .dialogContainer > .dialog:nth-child(2){ -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
 .dialogContainer > .dialog:nth-child(3){ -webkit-transition-delay: 0.3s; transition-delay: 0.3s; }
